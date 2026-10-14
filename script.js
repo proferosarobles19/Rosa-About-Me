@@ -56,14 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
     currentYearSpan.textContent = new Date().getFullYear();
   }
 
-  // Comprobar si existe avatar personalizado (assets/avatar.jpg) para reemplazar el placeholder
+  // Verificación de fotografía de perfil con compatibilidad dual (raíz 'avatar.jpg' y 'assets/avatar.jpg')
   const profileImg = document.getElementById('profileImage');
   if (profileImg) {
-    const customAvatar = new Image();
-    customAvatar.src = 'assets/avatar.jpg';
-    customAvatar.onload = () => {
-      profileImg.src = 'assets/avatar.jpg';
-    };
+    profileImg.addEventListener('error', function() {
+      if (this.src.indexOf('assets/avatar.jpg') !== -1) {
+        this.src = 'avatar.jpg';
+      } else if (this.src.indexOf('avatar.jpg') !== -1 && this.src.indexOf('assets/') === -1) {
+        this.src = 'assets/avatar.jpg';
+      }
+    });
   }
 
   // Establecer URL actual en el input de compartir

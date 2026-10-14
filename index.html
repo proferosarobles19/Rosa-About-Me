@@ -16,7 +16,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Rosa Robles Pino | Tecnología con propósito">
   <meta property="og:description" content="Ayudando a docentes a desarrollar competencias digitales y potenciar su praxis docente mediante IA y prompts efectivos.">
-  <meta property="og:image" content="assets/avatar.jpg">
+  <meta property="og:image" content="https://proferosarobles19.github.io/Rosa-About-Me/avatar.jpg">
   <meta property="og:image:alt" content="Rosa Robles Pino - Ingeniera en Sistemas e Innovadora Educativa">
   <meta property="og:site_name" content="Rosa Robles Pino">
 
@@ -24,7 +24,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Rosa Robles Pino | Tecnología con propósito">
   <meta name="twitter:description" content="Conectando saberes, innovando la educación. IA, ingeniería de prompts y metodologías STEAM para docentes.">
-  <meta name="twitter:image" content="assets/avatar.jpg">
+  <meta name="twitter:image" content="https://proferosarobles19.github.io/Rosa-About-Me/avatar.jpg">
 
   <!-- Tema del navegador móvil (Android / Safari) -->
   <meta name="theme-color" content="#0c0517">
@@ -85,11 +85,11 @@
         <div class="avatar-container">
           <img 
             id="profileImage"
-            src="assets/avatar.jpg" 
+            src="avatar.jpg" 
             alt="Fotografía profesional de Rosa Robles Pino" 
             class="profile-img"
             loading="eager"
-            onerror="this.onerror=null; this.src='assets/avatar-placeholder.svg';"
+            onerror="if(this.src.indexOf('assets/avatar.jpg')===-1){this.src='assets/avatar.jpg';}else{this.onerror=null;this.src='assets/avatar-placeholder.svg';}"
           >
         </div>
         <div class="avatar-badge" title="Especialista en IA & Educación" aria-label="Especialista en IA y Educación">
