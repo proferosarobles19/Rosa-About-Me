@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Rosa Robles Pino | Ingeniera en Sistemas & Innovación Educativa</title>
+
+  <!-- Metadatos SEO -->
+  <meta name="description" content="Página oficial de Rosa Robles Pino. Ingeniera en Sistemas Informáticos y educadora. Especialista en Inteligencia Artificial para docentes, ingeniería de prompts y transformación educativa.">
+  <meta name="keywords" content="Rosa Robles, Rosa Robles Pino, Innovación Educativa, Inteligencia Artificial Educativa, Ingeniería de Prompts, Docentes IA, STEAM, Robótica Educativa, Ingeniera en Sistemas">
+  <meta name="author" content="Rosa Robles Pino">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://proferosarobles19.github.io/Rosa-About-Me/">
+
+  <!-- Open Graph / Redes Sociales (Instagram, WhatsApp, LinkedIn, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rosa Robles Pino | Tecnología con propósito">
+  <meta property="og:description" content="Ayudando a docentes a desarrollar competencias digitales y potenciar su praxis docente mediante IA y prompts efectivos.">
+  <meta property="og:image" content="assets/avatar.jpg">
+  <meta property="og:image:alt" content="Rosa Robles Pino - Ingeniera en Sistemas e Innovadora Educativa">
+  <meta property="og:site_name" content="Rosa Robles Pino">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rosa Robles Pino | Tecnología con propósito">
+  <meta name="twitter:description" content="Conectando saberes, innovando la educación. IA, ingeniería de prompts y metodologías STEAM para docentes.">
+  <meta name="twitter:image" content="assets/avatar.jpg">
+
+  <!-- Tema del navegador móvil (Android / Safari) -->
+  <meta name="theme-color" content="#0c0517">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Google Fonts: Dancing Script (cursiva elegante) + Plus Jakarta Sans (estilo Canva Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+</head>
+<body>
+  <!-- Fondo con halos de degradado violeta, morado y rosado -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Contenedor Principal (Mobile-First) -->
+  <div class="page-container">
+
+    <!-- Barra de utilidad superior -->
+    <nav class="top-nav" aria-label="Acciones rápidas">
+      <span class="status-indicator">
+        <span class="status-dot"></span>
+        Disponible para talleres & conferencias
+      </span>
+      <div class="top-actions">
+        <button id="btnShareTop" class="icon-btn" aria-label="Compartir perfil" title="Compartir perfil">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+          </svg>
+        </button>
+        <button id="btnQrTop" class="icon-btn" aria-label="Ver código QR" title="Ver código QR">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header / Presentación Personal -->
+    <header class="profile-header">
+      <!-- Foto de Perfil / Avatar profesional -->
+      <div class="avatar-wrapper">
+        <div class="avatar-ring" aria-hidden="true"></div>
+        <div class="avatar-container">
+          <img 
+            id="profileImage"
+            src="assets/avatar.jpg" 
+            alt="Fotografía profesional de Rosa Robles Pino" 
+            class="profile-img"
+            loading="eager"
+            onerror="this.onerror=null; this.src='assets/avatar-placeholder.svg';"
+          >
+        </div>
+        <div class="avatar-badge" title="Especialista en IA & Educación" aria-label="Especialista en IA y Educación">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Nombre y Titular -->
+      <h1 class="profile-name">Rosa Robles Pino</h1>
+      
+      <!-- Presentación Principal -->
+      <div class="tagline-container">
+        <p class="hero-presentation">
+          “Hola, soy Rosa Robles. <span class="gradient-text">Tecnología con propósito</span>”.
+        </p>
+        <p class="profile-role">
+          <span class="role-badge">Ingeniera en Sistemas Informáticos</span>
+          <span class="role-sub">Educadora & Promotora de Innovación</span>
+        </p>
+      </div>
+
+      <!-- Misión Declarada -->
+      <div class="mission-card glass-card">
+        <div class="card-icon-header">
+          <span class="icon-pill">🎯 Mi Misión</span>
+        </div>
+        <p class="mission-text">
+          Ayudar a los docentes a <strong>desarrollar competencias digitales</strong> y potenciar su praxis docente mediante la <strong>inteligencia artificial</strong> y la creación de <strong>prompts efectivos</strong>.
+        </p>
+      </div>
+
+      <!-- Frase de Marca -->
+      <div class="brand-phrase-pill">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+        </svg>
+        <span>“Conectando saberes, innovando la educación”</span>
+      </div>
+
+      <!-- Botón de Llamada a la Acción Principal (CTA) -->
+      <div class="cta-section">
+        <a href="#contacto" class="btn-primary-cta glow-effect">
+          <span class="cta-sparkle">✨</span>
+          <span class="cta-label">¡Innovemos juntos!</span>
+          <svg class="cta-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <polyline points="19 12 12 19 5 12"></polyline>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="profile-content">
+
+      <!-- Sección: Servicios y Áreas de Especialización -->
+      <section class="section-container" aria-labelledby="heading-servicios">
+        <div class="section-title-wrap">
+          <h2 id="heading-servicios" class="section-title">
+            <span class="section-title-icon">🚀</span>
+            Servicios y Áreas de Interés
+          </h2>
+          <p class="section-subtitle">Soluciones prácticas y formación para docentes de la era digital</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- 1. Ingeniería de Prompts -->
+          <article class="service-card glass-card hover-glow" tabindex="0">
+            <div class="service-icon-box grad-pink">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                <line x1="9" y1="9" x2="15" y2="9"></line>
+                <line x1="9" y1="13" x2="13" y2="13"></line>
+              </svg>
+            </div>
+            <div class="service-content">
+              <div class="service-tag">Alta Demanda</div>
+              <h3 class="service-name">Ingeniería de Prompts para Educadores</h3>
+              <p class="service-desc">
+                Técnicas y estructuras avanzadas para dialogar con LLMs (ChatGPT, Claude, Gemini). Aprende a formular instrucciones precisas que generen material pedagógico de alto nivel.
+              </p>
+            </div>
+          </article>
+
+          <!-- 2. IA para Planificación Didáctica -->
+          <article class="service-card glass-card hover-glow" tabindex="0">
+            <div class="service-icon-box grad-purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+                <path d="m9 16 2 2 4-4"></path>
+              </svg>
+            </div>
+            <div class="service-content">
+              <div class="service-tag">Productividad</div>
+              <h3 class="service-name">IA Aplicada a la Planificación Didáctica</h3>
+              <p class="service-desc">
+                Aceleración del diseño curricular: secuencias didácticas por competencias, adaptaciones a la diversidad de aula y optimización de tus horas de planeación.
+              </p>
+            </div>
+          </article>
+
+          <!-- 3. Rúbricas e Instrumentos de Evaluación -->
+          <article class="service-card glass-card hover-glow" tabindex="0">
+            <div class="service-icon-box grad-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <div class="service-content">
+              <div class="service-tag">Evaluación Formativa</div>
+              <h3 class="service-name">Diseño de Actividades, Rúbricas e Instrumentos</h3>
+              <p class="service-desc">
+                Creación de matrices de evaluación analíticas, listas de cotejo, retroalimentación oportuna y reactivos contextualizados con apoyo de IA.
+              </p>
+            </div>
+          </article>
+
+          <!-- 4. STEAM y Herramientas Digitales -->
+          <article class="service-card glass-card hover-glow" tabindex="0">
+            <div class="service-icon-box grad-pink">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m4.93 4.93 4.24 4.24"></path>
+                <path d="m14.83 9.17 4.24-4.24"></path>
+                <path d="m14.83 14.83 4.24 4.24"></path>
+                <path d="m9.17 14.83-4.24 4.24"></path>
+                <circle cx="12" cy="12" r="4"></circle>
+              </svg>
+            </div>
+            <div class="service-content">
+              <div class="service-tag">Metodologías Activas</div>
+              <h3 class="service-name">Herramientas Digitales y Metodologías STEAM</h3>
+              <p class="service-desc">
+                Estrategias interdisciplinarias integrando Ciencia, Tecnología, Ingeniería, Arte y Matemáticas con plataformas interactivas y gamificación.
+              </p>
+            </div>
+          </article>
+
+          <!-- 5. Innovación Educativa y Robótica -->
+          <article class="service-card glass-card hover-glow" tabindex="0">
+            <div class="service-icon-box grad-purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                <circle cx="12" cy="5" r="2"></circle>
+                <path d="M12 7v4"></path>
+                <line x1="8" y1="16" x2="8" y2="16"></line>
+                <line x1="16" y1="16" x2="16" y2="16"></line>
+              </svg>
+            </div>
+            <div class="service-content">
+              <div class="service-tag">Pensamiento Computacional</div>
+              <h3 class="service-name">Innovación Educativa y Robótica</h3>
+              <p class="service-desc">
+                Desarrollo de lógica de programación, kits de robótica educativa, proyectos maker y cultura de resolución creativa de problemas en el aula.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Recurso Rápido: Prompt Base para Docentes (Lead Magnet / Demostración) -->
+      <section class="prompt-sample-box glass-card" aria-label="Prompt de ejemplo para docentes">
+        <div class="prompt-header">
+          <span class="prompt-badge">⚡ Tip de Prompt Engineering</span>
+          <button id="btnCopyPrompt" class="btn-copy-prompt" aria-label="Copiar prompt al portapapeles">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span class="copy-text">Copiar Prompt</span>
+          </button>
+        </div>
+        <p class="prompt-instruction">Usa esta fórmula en ChatGPT o Claude para planificar una clase activa:</p>
+        <div class="prompt-code-block" id="promptContent">
+          <code>"Actúa como un diseñador pedagógico experto. Diseña una actividad de 45 minutos basada en la metodología STEAM para estudiantes de [NIVEL/GRADO] sobre el tema de [TEMA]. Incluye: 1) Pregunta detonadora, 2) Reto colaborativo en equipos, 3) 3 criterios clave de evaluación en formato rúbrica."</code>
+        </div>
+      </section>
+
+      <!-- Sección: Enlaces y Canales de Contacto (Biolinks) -->
+      <section class="section-container" id="contacto" aria-labelledby="heading-contacto">
+        <div class="section-title-wrap">
+          <h2 id="heading-contacto" class="section-title">
+            <span class="section-title-icon">🌐</span>
+            Conecta Conmigo
+          </h2>
+          <p class="section-subtitle">Hablemos de talleres, capacitaciones docentes o proyectos de innovación</p>
+        </div>
+
+        <div class="links-list">
+
+          <!-- 1. Instagram -->
+          <a href="https://www.instagram.com/yarinc1983/" target="_blank" rel="noopener noreferrer" class="link-card link-instagram" aria-label="Visitar perfil de Instagram de Rosa Robles (@yarinc1983)">
+            <div class="link-icon">
+              <!-- SVG Instagram -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="link-info">
+              <span class="link-title">Instagram</span>
+              <span class="link-sub">@yarinc1983 • IA & Educación docente</span>
+            </div>
+            <div class="link-action-indicator" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- 2. LinkedIn -->
+          <a href="https://www.linkedin.com/in/rosa-robles-24b0281a3" target="_blank" rel="noopener noreferrer" class="link-card link-linkedin" aria-label="Visitar perfil de LinkedIn de Rosa Robles">
+            <div class="link-icon">
+              <!-- SVG LinkedIn -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="link-info">
+              <span class="link-title">LinkedIn</span>
+              <span class="link-sub">Rosa Robles • Red profesional & trayectoria</span>
+            </div>
+            <div class="link-action-indicator" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- 3. GitHub -->
+          <a href="https://github.com/proferosarobles19" target="_blank" rel="noopener noreferrer" class="link-card link-github" aria-label="Visitar repositorio GitHub de Rosa Robles (@proferosarobles19)">
+            <div class="link-icon">
+              <!-- SVG GitHub -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </div>
+            <div class="link-info">
+              <span class="link-title">GitHub</span>
+              <span class="link-sub">@proferosarobles19 • Software & recursos abiertos</span>
+            </div>
+            <div class="link-action-indicator" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- 4. Contacto por Correo Electrónico -->
+          <div class="email-card-wrapper">
+            <a href="mailto:rosa.robles1@meduca.edu.pa?subject=Propuesta%20de%20Colaboraci%C3%B3n%20-%20Innovaci%C3%B3n%20Educativa&body=Hola%20Rosa,%20he%20visto%20tu%20perfil%20y%20me%20gustar%C3%ADa%20conversar%20sobre:" class="link-card link-email" aria-label="Enviar correo a Rosa Robles">
+              <div class="link-icon">
+                <!-- SVG Email -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="link-info">
+                <span class="link-title">Enviar Correo Directo</span>
+                <span class="link-sub" id="emailDisplay">rosa.robles1@meduca.edu.pa</span>
+              </div>
+              <div class="link-action-indicator" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </a>
+            <!-- Botón auxiliar para copiar dirección de correo rápido -->
+            <button id="btnCopyEmail" class="btn-quick-copy" aria-label="Copiar dirección de correo al portapapeles" title="Copiar correo">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copiar email</span>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Formulario de Consulta / Mensaje Rápido -->
+      <section class="section-container" aria-labelledby="heading-mensaje">
+        <div class="quick-contact-box glass-card">
+          <h3 id="heading-mensaje" class="contact-box-title">¿Tienes un proyecto o taller en mente?</h3>
+          <p class="contact-box-sub">Conversemos sobre cómo integrar IA en tu institución o evento educativo.</p>
+          <a href="mailto:rosa.robles1@meduca.edu.pa?subject=Invitaci%C3%B3n%20a%20Taller%20o%20Conferencia" class="btn-outline-cta">
+            <span>Escríbeme un mensaje</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer con marca personal -->
+    <footer class="profile-footer">
+      <div class="footer-quote">
+        <p>“Conectando saberes, innovando la educación”</p>
+      </div>
+      <div class="footer-copy">
+        <p>© <span id="currentYear"></span> <strong>Rosa Robles Pino</strong></p>
+        <p class="footer-sub">Ingeniería en Sistemas • Innovación Educativa • IA</p>
+      </div>
+      <button id="btnScrollTop" class="btn-scroll-top" aria-label="Volver arriba">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+        <span>Arriba</span>
+      </button>
+    </footer>
+
+  </div>
+
+  <!-- Modal para Compartir y Código QR -->
+  <dialog id="shareModal" class="custom-modal" aria-labelledby="modalTitle">
+    <div class="modal-content glass-card">
+      <div class="modal-header">
+        <h3 id="modalTitle" class="modal-title">Compartir este Perfil</h3>
+        <button id="btnCloseModal" class="btn-close-modal" aria-label="Cerrar ventana">
+          ✕
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">Comparte con otros educadores interesados en Inteligencia Artificial y transformación digital:</p>
+        
+        <!-- Código QR Visual -->
+        <div class="qr-container">
+          <div id="qrCodeVisual" class="qr-box" aria-label="Código QR para acceder al perfil"></div>
+          <span class="qr-caption">Escanea con la cámara de tu smartphone</span>
+        </div>
+
+        <!-- Enlace para copiar -->
+        <div class="share-input-group">
+          <input type="text" id="shareUrlInput" class="share-url-input" readonly value="https://proferosarobles19.github.io/Rosa-About-Me/">
+          <button id="btnCopyShareUrl" class="btn-copy-url">
+            Copiar enlace
+          </button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Notificación Toast Flotante -->
+  <div id="toastNotification" class="toast-notification" role="status" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span id="toastMessage" class="toast-message">Copiado al portapapeles</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
